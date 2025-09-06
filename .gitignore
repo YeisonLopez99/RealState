@@ -1,0 +1,16 @@
+# Archivos temporales de Visual Studio
+.vs/
+*.user
+*.suo
+
+# Binarios y objetos de compilación
+bin/
+obj/
+
+# Logs
+*.log
+
+# Archivos generados
+*.vsidx
+*.db
+*.lock.json
