@@ -43,8 +43,10 @@ Solution
 5. Acceder a Swagger:
     http://localhost:5000/swagger  
 
+---
 
-##🔑 Autenticación
+
+## 🔑 Autenticación
 
 Se utiliza JWT (Bearer Token).
 
@@ -56,8 +58,9 @@ POST /api/v1/auth/login
 }
 Copiar el token y pegarlo en Swagger con Authorize.
 
+---
 
-📚 Endpoints principales
+## 📚 Endpoints principales
 
 POST /api/v1/properties → Crear propiedad.
 
@@ -67,7 +70,9 @@ PATCH /api/v1/properties/{id}/change-price → Cambiar precio de propiedad.
 
 POST /api/v1/properties/{id}/images → Subir imagen a una propiedad.
 
-🧪 Pruebas
+---
+
+## 🧪 Pruebas
 
 Ejecutar pruebas unitarias:
 
